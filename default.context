@@ -36,7 +36,7 @@ $endif$
 \setupitemize[autointro]    % prevent orphan list intro
 \setupitemize[indentnext=no]
 
-\setupcaption[figure][number=no]  % don't number figures
+\setupfloat[figure][default={top,nonumber}] % Default parameters for figures.
 
 \setupthinrules[width=15em] % width of horizontal rules
 
